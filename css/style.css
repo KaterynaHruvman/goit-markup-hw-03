@@ -24,8 +24,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-h1,
-h3 {
+h1 {
   margin: 0;
 }
 H1,
@@ -46,6 +45,9 @@ h4 {
 }
 img {
   display: block;
+}
+.title {
+  margin: 0;
 }
 /*--------------------Header----------------*/
 .container {
@@ -188,6 +190,7 @@ header {
 }
 .about-us {
   padding-top: 94px;
+  background-color: aqua;
 }
 .about-us-title {
   font-family: var(--main-font);
@@ -201,12 +204,19 @@ header {
   margin-right: 50px;
 }
 /*-------------------OFFERS---------------------------*/
-.offers-main-titlie {
+.offers-main-title {
   font-family: var(--main-font);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.offers {
+  padding-top: 94px;
+}
+.offers-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 .offers-list {
   display: flex;
@@ -222,12 +232,26 @@ header {
   background-color: rgba(47, 48, 58, 0.8);
 }
 /*-------OUR TEAM---------------------------------*/
+.ourteam-list {
+  display: flex;
+}
+.ourteam-list-item {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+.ourteam-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .ourteam-main-title {
   font-family: var(--main-font);
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+
+  margin-bottom: 50px;
 }
 .ourteam-title {
   font-family: var(--main-font);
