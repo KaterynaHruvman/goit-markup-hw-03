@@ -281,6 +281,8 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
 .social-links:hover,
 .social-links:focus {
@@ -296,6 +298,7 @@ header {
 .social-links-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
 }
 /*------------------ CLIENTS--------------------*/
 .clients-title {
@@ -457,8 +460,6 @@ header {
   color: var(--title-main-color);
   margin-top: 20px;
   margin-bottom: 4px;
-  margin-right: 24px;
-  margin-left: 24px;
 }
 .work-list-discription {
   font-family: var(--main-font);
@@ -468,6 +469,9 @@ header {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
 }
 .work-list-text {
   font-family: var(--main-font);
@@ -478,4 +482,6 @@ header {
   letter-spacing: 0.03em;
   color: var(--light-text-color);
   background-color: var(--accent-color);
+  margin: 0px;
+  padding: 0px;
 }
