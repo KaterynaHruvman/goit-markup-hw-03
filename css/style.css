@@ -142,7 +142,7 @@ header {
     ),
     url(../images/Hero.jpg);
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -406,6 +406,15 @@ header {
   text-transform: uppercase;
   color: var(--light-text-color);
   margin-bottom: 20px;
+}
+.footer-adress {
+  width: 230px;
+}
+.footer-join {
+  width: 206px;
+}
+.logo-adress {
+  width: 215px;
 }
 /*------------------PORTFOLIO---------------------------*/
 .button-filter {
